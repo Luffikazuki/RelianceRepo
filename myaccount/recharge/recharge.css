@@ -1,0 +1,80 @@
+
+body{  
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  margin: 0px;
+  color: #333333;
+}
+
+#header{
+  background-color: #3056A0;
+  line-height: 70px;
+  color: white;
+  font-size: 3em;
+  text-align: center;
+}
+
+#recharge{
+  border:1px solid #999999;
+  margin: 15px;
+  padding: 3px;
+  padding-bottom:2px;
+  text-align: center;
+  width:100%;
+ 
+}
+label {
+    display: inline-block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+
+input,
+label {
+    margin: 2rem 0;
+}
+
+	
+	.container-login100-form-btn {
+ 
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+
+.login100-form-btn {
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  position:absolute;
+  vertical-align:top;
+  width: 10%;
+  height: 10%;
+  border-radius: 25px;
+  background: #0c3381;
+  display:inline-block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  padding: 5px 5px 5px 5px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.login100-form-btn:hover {
+  background: #fed123;
+}
